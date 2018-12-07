@@ -8,7 +8,7 @@ from ekf import predict, update
 
 # In[Generate static landmarks]
 
-n = 100 # number of static landmarks
+n = 50 # number of static landmarks
 mapsize = 40
 landmark_xy = mapsize*(np.random.rand(n,2)-0.5)
 landmark_id = np.transpose([np.linspace(0,n-1,n,dtype='uint16')])
